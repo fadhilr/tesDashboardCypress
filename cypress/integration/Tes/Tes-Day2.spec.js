@@ -19,7 +19,7 @@ describe('Tes day 2', () => {
         cy.get('.css-12jo7m5').should('have.text','Maths')
         cy.get('#hobbiesWrapper > .col-md-9 > :nth-child(2)').click()
         cy.get('input[id="hobbies-checkbox-2"]').should('be.checked')
-        cy.get('input[id="uploadPicture"]').attachFile('FC_Internazionale_Milano_2021.svg.png')
+        // cy.get('input[id="uploadPicture"]').attachFile('FC_Internazionale_Milano_2021.svg.png')
         cy.get('#currentAddress').type('Adress tes').should('have.value','Adress tes')
         // cy.get('#stateCity-wrapper > :nth-child(2)').click()
         // cy.get('#city').should('be.disabled')
